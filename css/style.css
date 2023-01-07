@@ -16,7 +16,7 @@ body{
     margin-inline: auto;
     padding-inline:  10px;
     /* justify-content: space-between; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .flex{
@@ -116,6 +116,7 @@ body{
     /* padding: 3px */
     cursor: pointer;
 }
+
 .contactInfo ul li .icon{
     display: inline-block;
     color: rgb(7, 203, 252);
@@ -126,6 +127,16 @@ body{
     color: #fff;
     font-weight: 300;
 }
+
+.contactInfo ul li a{
+    color: #fff;
+    text-decoration: none ;
+}
+
+a:hover{
+    text-decoration-color: solid blue;
+}
+
 .skills{
     padding: 20px 15px;
 }
@@ -163,12 +174,22 @@ body{
 }
 
 .container-right table, tr, td,th{
- border: 1px solid blue;
+ border: 1px solid white;
  border-collapse: collapse;
  height:30px;
  text-align: center;
+ background-color: rgb(146, 215, 215);
  /* width: 200px; */
 }
+
+/* table hover not work */
+/* .container-right table tr:hover{
+    background-color: rgb(160, 130, 95);
+} */
+
+/* .table1 tr:hover{  
+    background: red;
+} */
 
 .container-right .table1 .table2,th{
     width: 200px;
